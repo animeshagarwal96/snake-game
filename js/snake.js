@@ -37,7 +37,7 @@ function isCollide(snake){
 function gameEngine(){
     //updating the snake array and food
     if(isCollide(snakeArr)){
-        backgroundMusic.pause();
+        backgroundMusic.pause(); 
         gameoverMusic.play()
         inputDir = {x:0, y:0}
         alert(`Game over!! press any key to start the game and your score is ${score}`);
